@@ -34,6 +34,22 @@ section{
     padding: 125px 100px;
 }
 
+@media (max-width: 1000px){
+
+	section{
+		padding: 100px 50px;
+	}
+
+}
+
+@media (max-width: 600px){
+
+	section{
+		padding: 80px 30px;
+	}
+
+}
+
 /* HEADER*/
 
 header{
@@ -211,5 +227,29 @@ ul.grid{
 }
 a.more{
     color: blue;
+}
+
+@media (max-width: 1000px){
+
+	.populer .grid li{
+		flex-basis: 70%;
+		margin-bottom: 65px;
+	}
+
+	.populer .grid li:last-child{
+		margin-bottom: 0;
+	}
+    ul.grid{
+        flex-direction: column;
+    }
+
+}
+
+
+@media (max-width: 600px){
+
+	.features .grid li{
+		flex-basis: 100%;
+	}
 
 }
