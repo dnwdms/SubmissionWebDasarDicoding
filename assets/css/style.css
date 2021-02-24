@@ -253,3 +253,46 @@ a.more{
 	}
 
 }
+
+/* Tentang Kami*/
+
+.tentang{
+	background-color: #5ab8eb;
+}
+
+.tentang .tentangkami{
+	text-align: center;
+	width: 80%;
+    font-size: 22px;
+    font-weight: 300;
+	color:lightcyan;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    padding: 0;
+}
+h3.titletk{
+	color: lightcyan;
+    text-transform: capitalize; 
+	font: bold 32px 'Open Sans', sans-serif;
+	margin-bottom: 35px;
+	text-align: center;
+}
+.tentang .us{
+	color: lightcyan;
+    font-size: 22px;
+	font-weight: bold;
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 1000px){
+
+	.tentang .tentang{
+		font-size: 20px;
+	}
+
+	.tentang .us{
+	    font-size: 16px;
+	}
+
+}
