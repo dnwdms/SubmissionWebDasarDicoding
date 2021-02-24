@@ -144,3 +144,26 @@ header nav li:last-child{
 .home form .btn{
 	padding: 18px 42px;
 }
+@media (max-width: 800px){
+
+	.home{
+		min-height: 600px;
+	}
+
+	.home h1{
+		font-size: 48px;
+	}
+
+	.home h3{
+		font-size: 24px;
+	}
+
+	.home form input{
+		flex-basis: 100%;
+        font-size:20px;
+		margin: 0 0 20px 0;
+	}
+
+}
+
+/* POPULER */
