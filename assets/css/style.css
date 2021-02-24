@@ -305,7 +305,7 @@ h3.titletk{
 .bawah{
 	display: flex;
 }
-.bawah > article, .bawah > aside{
+.bawah > form, .bawah > aside{
 	flex-basis: 50%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	padding: 20px;
@@ -344,7 +344,7 @@ input, select, textarea {
   
  
   input[type=submit] {
-	background-color: #4CAF50;
+	background-color: #2196F3;
 	color: white;
 	padding: 12px 20px;
 	border: none;
@@ -354,5 +354,44 @@ input, select, textarea {
   
  
   input[type=submit]:hover {
-	background-color: #45a049;
+	background-color: #1668ac;
   }
+
+  @media (max-width: 800px){
+
+	.bawah{
+		display: flex;
+		flex-direction: column;
+	}
+	.bawah > article, .bawah > aside{
+		flex-basis: 70%;
+		margin-bottom: 25px;
+	}
+
+}
+
+/* Footer */
+footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	background-color: #4185aa;
+	padding: 40px 0;
+}
+
+footer p{
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.938);
+	margin-bottom: 10px;
+}
+
+
+@media (max-width: 700px){
+
+	footer{
+		padding: 80px 15px;
+	}
+
+}

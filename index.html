@@ -4,22 +4,23 @@
         <title>Ayo Dolan</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </head>
     <body>
         <header class="sticky">
             <h2><a href="#">Ayo Dolan</a></h2>
             <ul>
             <nav>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Popular</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a onclick="home()" >Home</a></li>
+                <li><a onclick="populer()">Popular</a></li>
+                <li><a onclick="tentang()">About</a></li>
+                <li><a onclick="kontak()" >Contact</a></li>
             </nav>
             </ul>
         </header>
         <main>
             <article>
-                <section class="home">
+                <section class="home" id="home">
                     
                         <div class="image-bg" style="background-image: url(assets/img/home.jpg)"></div>
                             <h1>Temukan Tempat Wisata Menarik </h1>
@@ -29,29 +30,29 @@
                                 <a href="#" class="btn">CARI</a>
                             </form>
                 </section>
-                <section class="populer">
+                <section class="populer" id="populer">
                     <h3 class="title">Wisata Populer</h3>
                     <ul class="grid">
                         <li>
                             <img src="assets/img/borobudur.jpg">
                             <h4>Borobudur</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
-                            <a href="" class="more">Baca Selengkapnya</a>
+                            <p>Borobudur adalah sebuah candi Buddha yang terletak di Borobudur, Magelang, Jawa Tengah, Indonesia. </p>
+                            <a href="#" class="more">Baca Selengkapnya</a>
                         </li>
                         <li>
-                            <img src="assets/img/borobudur.jpg">
-                            <h4>Borobudur</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
-                            <a href="" class="more">Baca Selengkapnya</a>
+                            <img src="assets/img/prambanan.jpg">
+                            <h4>Prambanan</h4>
+                            <p>Candi Prambanan atau Candi Roro Jonggrang adalah kompleks candi Hindu terbesar di Indonesia yang dibangun pada abad ke-9 masehi.</p>
+                            <a href="#" class="more">Baca Selengkapnya</a>
                         </li>
                         <li>
-                            <img src="assets/img/borobudur.jpg">
-                            <h4>Borobudur</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
-                            <a href="" class="more">Baca Selengkapnya</a>
+                            <img src="assets/img/malioboro.jpg">
+                            <h4>Malioboro</h4>
+                            <p>Malioboro merupakan jalan dari tiga jalan di Kota Yogyakarta yang membentang dari Tugu Yogyakarta hingga ke perempatan Kantor Pos Yogyakarta.</p>
+                            <a href="#" class="more">Baca Selengkapnya</a>
                         </li>
                 </section>
-                <section class="tentang">
+                <section class="tentang" id="tentang">
                     <h3 class="titletk">Tentang Kami</h3>
                     <p class="tentangkami">Ayo Dolan adalah sebuah platform yang dibuat untuk berbagi informasi tentang lokasi pariwisata yang
                         menarik. Platform ini berbasis komunitas, setiap orang dapat merekomendasikan lokasi wisata
@@ -60,19 +61,19 @@
                     </p>
                     <p class="us">— Ayo Dolan</p>
                 </section>
-                <section class="kontak">
+                <section class="kontak" id="kontak">
                     <h3 class="title">Hubungi Kami</h3>	
                     <div class="bawah">
                             <form>
                         
                             <label for="nama">Nama</label>
-                            <input type="text" id="nama"  placeholder="Your name..">
+                            <input type="text" id="nama"  placeholder="Nama..">
                         
                             <label for="email">Email</label>
-                            <input type="email" id="email" placeholder="Your Email..">
+                            <input type="email" id="email" placeholder="Email..">
                         
                             <label for="subject">Pesan</label>
-                            <textarea id="pesan"  placeholder="Write something.." style="height:200px"></textarea>
+                            <textarea id="pesan"  placeholder="Pesan.." style="height:200px"></textarea>
                         
                             <input type="submit" value="Submit">
                             </form>
@@ -95,6 +96,11 @@
                 </section>
             </article>
         </main>
+        <footer>
+            <p>Ayo Dolan @ 2021, Gambar diambil dari UNSPLASH.COM </p>
+            <p>Dibuat Oleh Dina Widamas</p>
+        </footer>
+        <script src="assets/js/script.js"></script>
     </body>
 
 </html>
